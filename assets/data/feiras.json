@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TERÇA FEIRA - QUEBEC",
+        "dia": "Terça-feira",
+        "horario": "18:00 às 22:00",
+        "endereco": "PÁTIO DO MERCADO MUNICIPAL QUEBEC – RUA HUMAITÁ",
+        "bancas": [
+          "182 - HORTIFRUTIGRANJEIROS",
+          "000 - CEREAIS",
+          "178 - LANCHES, SALGADOS, REFRIGERANTES",
+          "003 - LANCHES, SALGADOS, REFRIGERANTES, PORÇÕES E ESPETINHOS"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1752778, -23.3213889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TERÇA FEIRA - VILA RECREIO",
+        "dia": "Terça-feira",
+        "horario": "18:00 às 22:00",
+        "endereco": "R. JOHN FITZGERALD KENNEDY – VILA RECREIO",
+        "bancas": [
+          "028 - LANCHES, SALG, REFRI",
+          "030 - LEITE FERMENTADO, IOGURTE E SUCOS"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1594444, -23.295]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "QUARTA FEIRA - ZERÃO",
+        "dia": "Quarta-feira",
+        "horario": "18:00 às 22:00",
+        "endereco": "R. GOMES CARNEIRO, ESTACIONAMENTO DO ZERÃO – JD. HIGIENÓPOLIS",
+        "bancas": [
+          "182 - HORTIFRUTIGRANJEIROS",
+          "004 - COMIDA TÍPICA ITALIANA E PORTUGUESA",
+          "000 - CEREAIS",
+          "028 - LANCHES, SALGADOS E REFRIGERANTES",
+          "183 - ARTESANATO EM GERAL",
+          "189 - GELÉIAS E MOLHOS",
+          "034 - LANCHES, SALGADOS, SUCOS E REFRIGERANTES",
+          "019 - COMIDA TÍPICA JAPONESA",
+          "027 - LANCHES, SALGADOS E REFRIGERANTES",
+          "032 - COMIDA TÍPICA JAPONESA",
+          "040 - SORVETE ITALIANO",
+          "132 - LANCHES, SALGADOS E REFRIGERANTES",
+          "130 - HORTIFRUTIGRANJEIROS",
+          "018 - GÊNEROS ALIMENTÍCIOS",
+          "036 - ARTESANATO EM GERAL",
+          "020 - COMIDA TÍPICA JAPONESA",
+          "061 - HORTIFRUTI",
+          "084 - LANCHES, SALGADOS E REFRIGERANTES",
+          "053 - GÊNEROS ALIMENTÍCIOS",
+          "003 - LANCHES, SALGADOS, REFRIGERANTES, PORÇÕES E ESPETINHOS",
+          "050 - COMIDA TÍPICA NORDESTINA EM GERAL",
+          "106 - COMIDA TÍPICA SUÍÇA E FRANCESA (CREPE, CHOCOLATES, CROISSANT, PANQUECAS E COCADA)",
+          "030 - GÊNEROS ALIMENTÍCIOS",
+          "010 - GÊNEROS ALIMENTÍCIOS",
+          "042 - COMIDA TÍPICA"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1630556, -23.3219444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "QUINTA FEIRA - IGAPÓ",
+        "dia": "Quinta-feira",
+        "horario": "18:00 às 22:00",
+        "endereco": "PRAÇA MARIA THEREZA VIEIRA ENTRE AS RUAS GRÉCIA E DINAMARCA – JD. IGAPÓ",
+        "bancas": [
+          "182 - HORTIFRUTIGRANJEIROS",
+          "004 - COMIDA TÍPICA ITALIANA E PORTUGUESA",
+          "028 - LANCHES, SALGADOS E REFRIGERANTES",
+          "183 - ARTESANATO EM GERAL (VELAS DECORATIVAS, BIJOUTERIAS E PANOS DE PRATOS BORDADOS)",
+          "034 - LANCHES, SALGADOS, SUCOS E REFRIGERANTES",
+          "032 - COMIDA TÍPICA JAPONESA",
+          "178 - LANCHES, SALG, REFRI",
+          "040 - GÊNEROS ALIMENTÍCIOS (SORVETE ITALIANO)",
+          "060 - CEREAIS",
+          "036 - ARTESANATO EM GERAL",
+          "020 - COMIDA TÍPICA JAPONESA",
+          "061 - HORTIFRUTI",
+          "084 - LANCHES, SALGADOS E REFRIGERANTES",
+          "053 - GÊNEROS ALIMENTÍCIOS",
+          "003 - LANCHES, SALGADOS, REFRIGERANTES, PORÇÕES E ESPETINHOS",
+          "050 - COMIDA TÍPICA NORDESTINA",
+          "106 - COMIDA TÍPICA SUÍÇA E FRANCESA (CREPE, CHOCOLATES, CROISSANT, PANQUECAS E COCADA)",
+          "030 - GÊNEROS ALIMENTÍCIOS",
+          "010 - GÊNEROS ALIMENTÍCIOS",
+          "042 - COMIDA TÍPICA",
+          "190 - ARTESANATOS TECIDO E CERÂMICA"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1475, -23.3416667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SEXTA FEIRA - ALVORADA",
+        "dia": "Sexta-feira",
+        "horario": "18:00 às 22:00",
+        "endereco": "AV. POÇOS DE CALDAS – PRAÇA AVELINO VIEIRA – PQ ALVORADA",
+        "bancas": [
+          "004 - COMIDA TÍPICA ITALIANA E PORTUGUESA",
+          "000 - CEREAIS",
+          "028 - LANCHES, SALGADOS E REFRIGERANTES",
+          "183 - ARTESANATO EM GERAL (VELAS DECORATIVAS, BIJOUTERIAS E PANOS DE PRATOS BORDADOS)",
+          "034 - LANCHES, SALGADOS, SUCOS E REFRIGERANTES",
+          "027 - LANCHES,SALGADOS E REFRIGERANTES",
+          "032 - COMIDA TÍPICA JAPONESA",
+          "040 - GÊNEROS ALIMENTÍCIOS (SORVETE ITALIANO)",
+          "132 - LANCHES, SALGADOS E REFRIGERANTES",
+          "018 - GÊNEROS ALIMENTÍCIOS",
+          "036 - ARTESANATO EM GERAL",
+          "020 - COMIDA TÍPICA JAPONESA",
+          "084 - LANCHES, SALGADOS E REFRIGERANTES",
+          "053 - LANCHES, SALGADOS, REFRIGERANTES, PORÇÕES E ESPETINHOS",
+          "050 - COMIDA TÍPICA NORDESTINA",
+          "106 - COMIDA TÍPICA SUÍÇA E FRANCESA (CREPE, CHOCOLATES, CROISSANT, PANQUECAS E COCADA)",
+          "030 - GÊNEROS ALIMENTÍCIOS",
+          "010 - GÊNEROS ALIMENTÍCIOS",
+          "042 - COMIDA TÍPICA"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1880556, -23.3016667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SÁBADO - ANÁLIA FRANCO",
+        "dia": "Sábado",
+        "horario": "18:00 às 22:00",
+        "endereco": "AV. ANÁLIA FRANCO ENTRE AS RUAS ROSA SIQUEIRA E ELEONOR ROOSEVELT – BAIRRO AEROPORTO",
+        "bancas": [
+          "004 - COMIDA TÍPICA ITALIANA E PORTUGUESA",
+          "028 - LANCHES, SALGADOS E REFRIGERANTES",
+          "183 - ARTESANATO EM GERAL",
+          "034 - LANCHES, SALGADOS, SUCOS E REFRIGERANTES",
+          "032 - COMIDA TÍPICA JAPONESA",
+          "091 - LANCHES, FRIOS, SUCOS, REFRIGERANTES",
+          "040 - SORVETE ITALIANO",
+          "018 - GÊNEROS ALIMENTÍCIOS",
+          "139 - LANCHES, SALGADOS E REFRIGERANTES",
+          "084 - LANCHES, SALGADOS E REFRIGERANTES",
+          "053 - GÊNEROS ALIMENTÍCIOS",
+          "050 - COMIDA TÍPICA NORDESTINA EM GERAL",
+          "106 - COMIDA TÍPICA SUÍÇA E FRANCESA (CREPE, CHOCOLATES, CROISSANT, PANQUECAS E COCADA)",
+          "042 - COMIDA TÍPICA"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1863889, -23.3016667]
+      }
+    }
+  ]
+}

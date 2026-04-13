@@ -1,0 +1,112 @@
+.feiras-page {
+  background: linear-gradient(to left, #2383C8, #2383C8, #0a1b2e, #0a1b2e);
+  padding: 40px 0;
+}
+
+.feiras-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 40px;
+
+  align-items: center;
+}
+
+/* Lado esquerdo — logo */
+.feiras-logo {
+  text-align: center;
+}
+
+.logo-img {
+  width: 360px;
+}
+
+.titulo-site {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Título */
+.feiras-titulo {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Lista */
+.feiras-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Cards */
+.feira-card {
+  background: #565555;
+  padding: 2px 22px;
+  border-radius: 14px;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.feira-dia {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.feira-end {
+  grid-column: 1 / 3;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.feira-horario {
+  text-align: right;
+}
+
+.feira-horario span {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.feira-horario strong {
+  color: #FFFFFF;
+  display: block;
+  font-size: 20px;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .feiras-wrapper {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .feira-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .feira-end {
+    grid-column: 1;
+  }
+
+  .feira-horario {
+    margin-top: 8px;
+  }
+}

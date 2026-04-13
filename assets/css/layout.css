@@ -1,0 +1,48 @@
+header.topbar {
+  padding: 15px 25px;
+  background: linear-gradient(to left, #2383C8, #2383C8, #0a1b2e, #0a1b2e);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #9bc9ff;
+}
+
+nav.menu ul{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+nav.menu ul li a{
+  display: block;
+  width: 100%;
+  background: #e7e7e7;
+  padding: 13px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  transition: 0.25s ease;
+ }
+
+nav.menu ul li a:hover{
+    background: #fff;
+  transform: scale(1.05);
+}
+
+nav.menu a:hover {
+  background: #fff;
+  transform: scale(1.05);
+}

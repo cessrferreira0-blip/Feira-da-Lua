@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira da Lua</title>
+    
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    
+    <link rel="stylesheet" href="assets/css/locais.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="Feira da Lua">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="guia.html" target="_blank" rel="noopener noreferrer">Guia</a>
+                </li>
+                <li>
+                    <a href="index.html" target="_blank" rel="noopener noreferrer">Inicio</a>
+                </li>
+                <li>
+                    <a href="locais.html" target="_blank" rel="noopener noreferrer">Locais</a>
+                </li>
+                <li>
+                    <a href="sobre.html" target="_blank" rel="noopener noreferrer">Sobre a Feira</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="feiras-page">
+      <section class="feiras-wrapper">
+       
+        <div class="feiras-logo">
+          <img src="assets/img/icone_feiradalua.png" class="logo-img" />
+          
+        </div>
+
+        <!-- Lista -->
+        <div class="feiras-content">
+          <h2 class="feiras-titulo">Dias de Feira da Lua</h2>
+
+          <div id="listaFeiras" class="feiras-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      fetch("assets/data/feiras.json")
+        .then((res) => res.json())
+        .then((data) => montarFeiras(data.features));
+
+      function montarFeiras(lista) {
+        const container = document.getElementById("listaFeiras");
+
+        lista.forEach((f) => {
+          const p = f.properties;
+
+          const card = document.createElement("div");
+          card.classList.add("feira-card");
+
+          card.innerHTML = `
+            <div class="feira-dia">${p.dia}: 
+              <strong>${p.name.split("-")[1].trim()}</strong>
+            </div>
+
+            <div class="feira-end">${p.endereco}</div>
+
+            <div class="feira-horario">
+              <span>Horário</span>
+              <strong>${p.horario.replace("às", "-")}</strong>
+            </div>
+          `;
+
+          container.appendChild(card);
+        });
+      }
+    </script>
+  </body>
+</html>
