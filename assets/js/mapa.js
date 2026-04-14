@@ -24,6 +24,7 @@ const response=fetch("../data/feiras.json")
     renderMarkers("all"); // mostrar tudo ao iniciar
   });
 console.log(response);
+console.log(response);
 // Função para renderizar marcadores
 function renderMarkers(day) {
   console.log(day)
