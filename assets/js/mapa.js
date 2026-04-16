@@ -16,7 +16,7 @@ let markersLayer = L.layerGroup().addTo(map);
 // Carregar GeoJSON
 let feiras = [];
 
-const response=fetch("../data/feiras.json")
+const response = fetch('assets/data/feiras.json')
   .then((res) => res.json())
   .then((data) => {
     feiras = data.features;
